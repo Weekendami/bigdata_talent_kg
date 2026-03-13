@@ -1,0 +1,19 @@
+[project]
+name = "bigdata-talent-kg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "altair<5",
+    "neo4j>=6.1.0",
+    "openai>=2.26.0",
+    "pandas>=2.2,<3",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.2",
+    "pyvis>=0.3.2",
+    "scrapy>=2.14.2",
+    "selenium>=4.41.0",
+    "lxml>=4.9.3",
+    "streamlit>=1.19.0",
+]

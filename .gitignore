@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets
+.env
+
+# Tooling / editor state
+.trae/
+
+# Browser profiles and scraper debug artifacts
+data/chrome_profile/
+data/debug/
+data/debug_response_page1.json
+
+# OS files
+.DS_Store
+Thumbs.db
